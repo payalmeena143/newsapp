@@ -1,9 +1,9 @@
-# Pre-Requisite
+## Pre-Requisite
 ReactJs
 
 Bootstrap
 
-# Before "npm start" you do:
+## Before "npm start" you do:
 npm init
 
 npm install
