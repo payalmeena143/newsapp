@@ -5,6 +5,7 @@ Bootstrap
 
 # Before "npm start" you do:
 npm init
+
 npm install
 
 ## Available Scripts
