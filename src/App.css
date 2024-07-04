@@ -13,6 +13,44 @@
   }
 }
 
+.ml10 {
+  position: relative;
+  font-weight: 800;
+  font-size: 2.5em;
+  display: inline-block;
+}
+
+.ml10 .text-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.ml10 .letter:nth-child(1) { animation-delay: 0.1s; }
+.ml10 .letter:nth-child(2) { animation-delay: 0.2s; }
+.ml10 .letter:nth-child(3) { animation-delay: 0.3s; }
+.ml10 .letter:nth-child(4) { animation-delay: 0.4s; }
+.ml10 .letter:nth-child(5) { animation-delay: 0.5s; }
+.ml10 .letter:nth-child(6) { animation-delay: 0.6s; }
+.ml10 .letter:nth-child(7) { animation-delay: 0.7s; }
+.ml10 .letter:nth-child(8) { animation-delay: 0.8s; }
+.ml10 .letter:nth-child(9) { animation-delay: 0.9s; }
+.ml10 .letter:nth-child(10) { animation-delay: 1s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
