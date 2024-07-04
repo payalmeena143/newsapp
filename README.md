@@ -1,8 +1,9 @@
 # Pre-Requisite
 ReactJs
+
 Bootstrap
 
-# Before npm start you do:
+# Before "npm start" you do:
 npm init
 npm install
 
@@ -10,7 +11,7 @@ npm install
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
